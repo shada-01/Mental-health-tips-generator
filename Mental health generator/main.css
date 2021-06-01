@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.7)),url("img.jpg");
+    background-repeat: repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position:fixed;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top:100px;
+    margin-left:520px;
+    margin-right:480px;
+    background: rgba(174, 225, 231, 0.226);
+    color: rgb(34, 49, 49);
+    font-family: 'Lucida Handwriting';
+    font-size: 20px;
+    align-items: center;
+    border:3px solid rgb(69, 69, 100);
+    border-radius: 20px;
+    box-sizing: content-box;
+    
+    box-shadow: 0 20px 25px rgba(117, 100, 150, 0.4);
+    position: relative;
+}
+
+.ment{
+  align-items: center;
+  justify-content: center;
+  margin-left: 140px;
+}
+
+#gentask {
+    color: white !important;
+    background: #64b6ac !important;
+    border-color: #64b6ac !important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+  #gentask:hover {
+    background: #b09e99 !important;
+    border-color: #b09e99 !important;
+    color: #333333 !important;
+  }
+  .sub {
+    color: #e61f4a;
+    text-shadow: antiquewhite;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 200px;
+  }
+
+  .text{
+    font-family:monospace;
+    font-size: 20px;
+    color: rgb(85, 54, 30);
+  }
+  .text:hover{
+    font-size: 22px;
+  }
+
+.container{
+    
+    display: inline-block;
+    margin-left:30%;
+    width:40%;
+    height:200px;
+    
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient( rgba(231, 128, 185, 0.973),white);
+    
+    
+    padding: 10px;
+    border-radius:100px;
+    z-index: 10;
+    position:relative;
+    top: 0;
+  
+}
